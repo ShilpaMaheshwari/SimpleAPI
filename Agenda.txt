@@ -1,0 +1,47 @@
+1. What is CI/CD pipeline? working on it (23-10-2021)
+Solution : creating 2 application and working on it....
+1. github repository
+2. Azure deveops
+
+2. What is RabbitMQ?
+3. How to configure RabbitMQ in microservice?
+4. How RabbitMQ is differ from Kafka?
+5. **How to handle large data set in Angular and React?
+6. **Explain complete RxJs?
+7. What is Azure Devops? working on it (23-10-2021)
+8. Alternative to Deveops? working on it (23-10-2021)
+9. How to connect Github and Azure to Azure Deveops? working on it (23-10-2021)
+10. How to configure the Azure devops piplines? working on it (23-10-2021)
+11. How to continueosly integration and deploy to production Azure site? working on it (23-10-2021)
+12. What is CQRS pattern?
+13. What is MediatR pattern?
+14. What is difference between Monolithic and microservice?
+15. **How to Lazy  loading pattren in Angular11?
+16. difference between subject, behaviourSubject, AsyncSubject,RelaySubject,Observable*?
+17. **How to create custom CLI in Angular 11/ReactJs?
+18. ng new Shilpa (approx 300MB size.... )
+19. What is webpack 5.0.9? complete knowledge of webpack?
+20. Azure kubernetes service?
+
+
+dotnet new webapi --name SimpleAPI
+dotnet new xunit --name SimpleAPI.Tests
+dotnet new sln --name SimpleAPI
+
+dotnet sln SimpleAPI.sln add SimpleAPI/SimpleAPI.csproj
+dotnet sln SimpleAPI.sln add SimpleAPI.Tests/SimpleAPI.Tests.csproj
+dotnet sln SimpleAPI.sln add Test/SimpleAPI.Tests/SimpleAPI.Tests.csproj
+dotnet add Test/SimpleAPI.Tests/SimpleAPI.Tests.csproj reference SimpleAPI/SimpleAPI.csproj
+
+
+
+
+--------------------------------------------------------------------------------------
+Consructor
+design pattern
+di
+Middleware
+extension method
+appconfig
+microservice :singal service but response different like json or XML
+--------------------------------------------------------------------------------------
