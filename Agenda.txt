@@ -33,8 +33,23 @@ dotnet sln SimpleAPI.sln add SimpleAPI.Tests/SimpleAPI.Tests.csproj
 dotnet sln SimpleAPI.sln add Test/SimpleAPI.Tests/SimpleAPI.Tests.csproj
 dotnet add Test/SimpleAPI.Tests/SimpleAPI.Tests.csproj reference SimpleAPI/SimpleAPI.csproj
 
+-----------------------------------------------------------------------------------------
+31-10-2021
+So finally application is successfully uploaded to git hub
+Now the next point is we have to create the piplines in azure devops.
+finally we get to azure devops.
+Now Azure deveops does not provide hosting environment.
 
+What is CI?
+It is just a process to create the pipeline(it is just build process + unit test+ environment of the application)
+We can do same process with jenkins.
 
+Remark: We have to create own hosting environment for creating a pipeline.
+Azure deveops does not provide hosting environment.
+
+Pool............Agent(hosting environment).......pipeline.............Complete application environment for CI
+
+Agent : Kestreal is hosting environment in dotnet core.
 
 --------------------------------------------------------------------------------------
 Consructor
