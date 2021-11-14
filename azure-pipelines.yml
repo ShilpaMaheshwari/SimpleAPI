@@ -20,7 +20,17 @@ steps:
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
-
+- task: DotNetCoreCLI@2
+    displayName: 'dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    inputs:
+      command: publish
+      publishWebProjects: false
+      projects: 'src/SimpleAPI/SimpleAPI.csproj'
+      arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+      zipAfterPublish: true
+  
+  - task: PublishBuildArtifacts@1
+    displayName: 'publish artifacts'
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
