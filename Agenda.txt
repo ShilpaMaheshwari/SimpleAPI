@@ -50,6 +50,20 @@ Azure deveops does not provide hosting environment.
 Pool............Agent(hosting environment).......pipeline.............Complete application environment for CI
 
 Agent : Kestreal is hosting environment in dotnet core.
+--------------------------------------------------------------------------------------------------
+git add .
+git status
+git pull
+git commit -m "Comment"
+git remote add origin https://github.com/ShilpaMaheshwari/SimpleAPI.git
+git branch -M main
+git push -u origin main
+
+-------------------------------------------------------------14 November 2021----------------------------------------
+Azure CD (Contineous Deployment)
+
+
+
 
 --------------------------------------------------------------------------------------
 Consructor
